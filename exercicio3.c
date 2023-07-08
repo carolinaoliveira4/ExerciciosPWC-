@@ -31,5 +31,11 @@ void substring(char* str) {
     }
     printf("\n");
 }
+   int main(){
+    char str[] = "babad";
+    printf("Input: %s\n", str);
+    substring(str);
 
+    return 0;
+   }
       
