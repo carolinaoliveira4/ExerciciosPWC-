@@ -24,4 +24,12 @@ void substring(char* str) {
             fim = i + maxLen / 2;
         }
     }
-    printf()
+    
+    printf("Output: ");
+    for (int i = inicio; i <= fim; i++) {
+        printf("%c", str[i]);
+    }
+    printf("\n");
+}
+
+      
